@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/js",
+    "target": "ES6",
+    "noEmitOnError": true, //não gera o arquivo a não ser que o erro seja executado
+    "noImplicitAny": true
+  },
+  "include": [
+    "app/**/*"
+  ]
+}
