@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "dist/js",
     "target": "ES6",
-    "noEmitOnError": true, //não gera o arquivo a não ser que o erro seja executado
+    "noEmitOnError": true, //não gera o arquivo a não ser que o erro seja corrigido
     "noImplicitAny": true
   },
   "include": [
