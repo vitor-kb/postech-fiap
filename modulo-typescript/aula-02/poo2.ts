@@ -20,6 +20,7 @@ class Animal {
 class Cachorro extends Animal {
   fazerSom() {
       console.log("O cachorro late.");
+      console.log(`Espécie: ${this.getEspecie()}`);
   }
 }
 
@@ -29,5 +30,5 @@ class Gato extends Animal {
   }
 }
 
-const meuAnimal: Animal = new Cachorro("Bordercollie");
-meuAnimal.fazerSom(); //chama o método fazerSom da classe 'Cachorro'
+const meuCachorro = new Cachorro("Rex");
+meuCachorro.fazerSom(); //chama o método fazerSom da classe 'Cachorro'
