@@ -15,7 +15,10 @@
   <script type="injector-importmap">
     {
       "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@6.0.3/lib/es2015/esm/single-spa.min.js"
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@6.0.3/lib/es2015/esm/single-spa.min.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js",
+        "react-dom/client": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom-client.production.min.js",
       }
     }
   </script>
@@ -29,7 +32,8 @@
     {
       "imports": {
         "@bytebank/root-config": "//localhost:9000/bytebank-root-config.js",
-        "@bytebank/account": "//localhost:8500/bytebank-account.js"
+        "@bytebank/account": "//localhost:8500/bytebank-account.js",
+        "@bytebank/navbar": "//localhost:8501/bytebank-navbar.js"
       }
     }
   </script>
